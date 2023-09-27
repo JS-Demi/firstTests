@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "capitalize": "/bin/capitalize.js"
+    "capitalize": "bin/capitalize.js"
   },
   "type": "module",
   "main": "index.js",

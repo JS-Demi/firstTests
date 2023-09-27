@@ -4,5 +4,5 @@ install:
 capitalize:
 		node bin/capitalize.js
 
-tests:
+test:
 		node tests/capitalize.test.js
