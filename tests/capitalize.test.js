@@ -1,4 +1,4 @@
-import capitalize from '/src/index.js'
+import capitalize from '../src/index.js'
 
 if (capitalize('hello') !== 'Hello') {
     throw new Error('Функция работает неверно!')

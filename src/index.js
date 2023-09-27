@@ -1,6 +1,8 @@
 const capitalize =  (str) => {
+    if (str === '') {
+        return ''
+    }
     const [firstLetter, ...restChars] = str;
-    return `${firstLetter.toUpperCase()}${restChars}`
+    return `${firstLetter.toUpperCase()}${restChars.join('')}`
 };
-console.log(capitalize('hello'));
 export default capitalize;
